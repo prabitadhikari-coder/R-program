@@ -1,0 +1,6 @@
+library(readr)
+ls("package:readr")
+df1<-read_csv("C:/Users/HP/Desktop/R-program/dataset.csv")
+print(df1)
+library("moments")
+skewness(df$x1)
